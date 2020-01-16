@@ -44,4 +44,4 @@ def splitVerses(chapter, content):
 		verses.append(blocks.Verse(verseTitle, text))
 	return verses
 
-BIBLE = buildBible("/home/aidenrd/Desktop/Coding/Python/WordCounter/data")
+BIBLE = buildBible(os.getcwd()+"/data")
