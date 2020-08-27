@@ -4,7 +4,8 @@
 The library is designed to make it very easy for novice programmers to
 experiment with computer graphics in an object oriented fashion. It is
 written by John Zelle for use with the book "Python Programming: An
-Introduction to Computer Science" (Franklin, Beedle & Associates).
+Introduction to Computer Science" (Franklin, Beedle & Associates) and 
+expanded by Aiden Dow for personal use
 
 LICENSE: This is open-source software released under the terms of the
 GPL (http://www.gnu.org/licenses/gpl.html).
@@ -45,6 +46,7 @@ The library provides the following graphical objects:
     Text
     Entry (for text-based input)
     Image
+    Button
 
 Various attributes of graphical objects can be set such as
 outline-color, fill-color and line-width. Graphical objects also
@@ -159,6 +161,9 @@ __version__ = "5.0"
 #     Fixed Garbage collection of Tkinter images bug.
 #     Added ability to set text atttributes.
 #     Added Entry boxes.
+
+# Edit
+#   Added a Button class
 
 import time, os, sys
 
